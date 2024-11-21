@@ -1,0 +1,59 @@
+.productList {
+  font-family: Arial, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.productList h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productList table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.productList th,
+.productList td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.productList th {
+  color: black;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  height: min-content;
+}
+
+.productList td button {
+  padding: 7px 12px 7px 12px;
+}
+
+.productList td .actionButtons {
+  display: flex; /* Ativa o flexbox */
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaço fixo entre os botões */
+}
+
+.productList .editButton {
+  background-color: #4c6baf;
+  color: white;
+}
+
+.productList .deleteButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.productList button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: red;
+}

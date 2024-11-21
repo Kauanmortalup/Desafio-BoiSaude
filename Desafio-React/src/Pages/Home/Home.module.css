@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  font-size: 60px;
+}
+
+.container {
+  padding-top: 100px;
+  display: grid;
+}
+
+.container button {
+  margin-top: 30px;
+  font-size: 1.2em;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}

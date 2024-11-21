@@ -1,0 +1,46 @@
+.mensagem {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3.2em;
+}
+
+.line {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.line h3 {
+  margin: 4px;
+  padding: 0px 5px 0px 0px;
+  min-width: max-content;
+}
+
+.line input {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.btnInserir {
+  width: 100%;
+  background-color: rgb(73, 182, 63);
+  font-size: 1.4em;
+  margin-top: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+.btnInserir:hover {
+  opacity: 0.8;
+}
