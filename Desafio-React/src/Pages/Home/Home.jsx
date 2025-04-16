@@ -7,7 +7,7 @@ function Home() {
   const navigate = useNavigate();
   return (
     <div>
-      <h1 className={styles.title}>Desafio BoiSaúde</h1>
+      <h1 className={styles.title}>Primeiro CRUD em ASP.NET</h1>
       <div className={styles.container}>
         <button onClick={() => navigate("/get")}>
           Visualizar os Produtos Cadastrados
